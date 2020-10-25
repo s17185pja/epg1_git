@@ -1,0 +1,9 @@
+git clone https://github.com/s17185pja/epg1_git
+cd epg1_git/
+git branch hw-s17185_2
+git checkout hw-s17185_2
+git branch --set-upstream-to origin/master
+git branch <tab> (aby zobaczyc wszystkie branche)
+git rebase hw-s17185_2 origin/rebase-me
+git checkout hw-s17185_2
+git merge origin/merge-me
